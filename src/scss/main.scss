@@ -1,0 +1,55 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+0. Reset
+1. Main Layout
+2. Content
+
+==============================================
+*/
+
+/* 0. Reset ================================= */
+@import 'reset';
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("/dist/img/bg.png");
+	font-family: 'Gaegu', cursive;
+	
+}
+
+
+a {
+	color: blue;
+	text-align: center;
+	font-size: 10vw;
+}
+
+img {
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	border: 20px solid black;
+}
+
+
+#app {
+	display: flex;
+	flex-direction: column; 
+	.image {
+		width: 23%;
+		margin: 1%;
+		img {
+			width: 100%;
+		}
+	}
+
+}
